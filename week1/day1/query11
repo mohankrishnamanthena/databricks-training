@@ -1,0 +1,6 @@
+SELECT * FROM Employee
+WHERE hire_date BETWEEN '2020-01-01' AND '2020-12-31';
+
+
+emp_id	name	age	salary	department_id	hire_date
+1	John Doe	28	50000.0	1	2020-01-15
