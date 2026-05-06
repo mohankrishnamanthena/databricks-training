@@ -1,0 +1,9 @@
+SELECT YEAR(hire_date) AS hire_year,
+       COUNT(*) AS number_of_employees
+FROM Employee
+GROUP BY YEAR(hire_date)
+HAVING COUNT(*) > 1;
+
+hire_year	number_of_employees
+2019	2
+2021	2
