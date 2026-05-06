@@ -1,0 +1,11 @@
+SELECT YEAR(hire_date) AS hire_year,
+       COUNT(*) AS number_of_employees
+FROM Employee
+GROUP BY YEAR(hire_date);
+
+uery #1 Execution time: 0.24ms
+hire_year	number_of_employees
+2018	1
+2019	2
+2020	1
+2021	2
