@@ -1,0 +1,10 @@
+SELECT * from Employee;
+
+emp_id	name	age	salary	department_id	hire_date
+1	John Doe	28	50000.0	1	2020-01-15
+2	Jane Smith	34	60000.0	2	2019-07-23
+3	Bob Brown	45	80000.0	1	2018-02-12
+4	Alice Blue	25	45000.0	3	2021-03-22
+5	Charlie P.	29	50000.0	2	2019-12-01
+6	David Green	38	70000.0	4	2022-05-18
+7	Eve Black	40	55000.0	3	2021-08-30
