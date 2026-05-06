@@ -1,0 +1,6 @@
+SELECT * FROM Employee
+WHERE hire_date < '2019-01-01';
+
+
+emp_id	name	age	salary	department_id	hire_date
+3	Bob Brown	45	80000.0	1	2018-02-12
