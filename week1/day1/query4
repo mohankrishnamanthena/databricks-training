@@ -1,0 +1,8 @@
+SELECT name FROM Department;
+
+
+name
+IT
+HR
+Finance
+Marketing
