@@ -1,0 +1,7 @@
+SELECT department_id, SUM(salary) AS total_salary
+FROM Employee
+GROUP BY department_id
+HAVING SUM(salary) < 100000;
+
+department_id	total_salary
+4	70000.0
