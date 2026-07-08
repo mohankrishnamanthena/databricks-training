@@ -1,9 +1,0 @@
-SELECT department_id, AVG(salary) AS average_salary
-FROM Employee
-GROUP BY department_id;
-
-department_id	average_salary
-1	65000.0
-2	55000.0
-3	50000.0
-4	70000.0

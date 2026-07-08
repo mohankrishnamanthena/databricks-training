@@ -1,7 +1,0 @@
-SELECT SUM(salary) AS total_salary
-FROM Employee;
-
-
-
-total_salary
-410000.0

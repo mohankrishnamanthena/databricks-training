@@ -1,7 +1,0 @@
-SELECT department_id, COUNT(*) AS number_of_employees
-FROM Employee
-GROUP BY department_id
-HAVING COUNT(*) > 2;
-
-department_id	number_of_employees
-There are no results to be displayed.

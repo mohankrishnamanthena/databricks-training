@@ -1,6 +1,0 @@
-SELECT AVG(salary) AS avg_salary
-FROM Employee;
-
-
-avg_salary
-58571.428571

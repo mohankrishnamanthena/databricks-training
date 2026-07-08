@@ -1,6 +1,0 @@
-SELECT * FROM Employee
-WHERE hire_date >= CURRENT_DATE - INTERVAL 2 YEAR;
-
-
-emp_id	name	age	salary	department_id	hire_date
-There are no results to be displayed.

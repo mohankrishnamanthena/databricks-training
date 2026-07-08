@@ -1,9 +1,0 @@
-SELECT Employee.name
-FROM Employee
-JOIN Department
-ON Employee.department_id = Department.department_id
-WHERE Department.name = 'IT';
-
-name
-John Doe
-Bob Brown

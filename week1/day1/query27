@@ -1,9 +1,0 @@
-SELECT department_id, AVG(salary) AS average_salary
-FROM Employee
-GROUP BY department_id
-HAVING AVG(salary) > 55000;
-
-department_id	average_salary
-1	65000.0
-4	70000.0
-

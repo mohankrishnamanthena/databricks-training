@@ -1,7 +1,0 @@
-SELECT MIN(salary) AS min_salary
-FROM Employee;
-
-
-
-min_salary
-45000.0

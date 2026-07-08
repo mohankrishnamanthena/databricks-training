@@ -1,7 +1,0 @@
-SELECT department_id, MAX(salary) AS highest_salary
-FROM Employee
-GROUP BY department_id
-HAVING MAX(salary) > 75000;
-
-department_id	highest_salary
-1	80000.0

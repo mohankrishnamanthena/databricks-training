@@ -1,7 +1,0 @@
-SELECT * FROM Employee
-WHERE name LIKE '%e';
-
-
-emp_id	name	age	salary	department_id	hire_date
-1	John Doe	28	50000.0	1	2020-01-15
-4	Alice Blue	25	45000.0	3	2021-03-22
